@@ -1,0 +1,184 @@
+<!doctype html>
+
+<!-- 
+320 and Up boilerplate extension
+Andy Clarke http://about.me/malarkey
+Keith Clark http://twitter.com/keithclarkcouk
+Version: 2
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT
+-->
+
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+
+<title>Don't forget anything again! | Conflist</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" media="print" href="css/print.css">
+<!-- For progressively larger displays -->
+<link rel="stylesheet" media="only screen and (min-width: 480px)" href="css/480.css">
+<link rel="stylesheet" media="only screen and (min-width: 600px)" href="css/600.css">
+<link rel="stylesheet" media="only screen and (min-width: 768px)" href="css/768.css">
+<link rel="stylesheet" media="only screen and (min-width: 992px)" href="css/992.css">
+<!-- For Retina displays -->
+<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5)" href="css/2x.css">
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="js/libs/selectivizr-min.js"></script>
+<![endif]-->
+
+<!-- JavaScript -->
+<script src="js/libs/modernizr-2.0.6.min.js"></script>
+
+<!-- For iPhone 4 -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon.png">
+<!-- For iPad 1-->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/m/apple-touch-icon.png">
+<!-- For iPhone 3G, iPod Touch and Android -->
+<link rel="apple-touch-icon-precomposed" href="img/l/apple-touch-icon-precomposed.png">
+<!-- For Nokia -->
+<link rel="shortcut icon" href="img/l/apple-touch-icon.png">
+<!-- For everything else -->
+<link rel="shortcut icon" href="/favicon.ico">
+
+<!--iOS. Delete if not required -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-startup-image" href="img/splash.png">
+
+<!--Microsoft. Delete if not required -->
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--[if lt IE 7 ]><script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script><script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script><![endif]-->
+
+<!-- http://t.co/y1jPVnT -->
+<link rel="canonical" href="/">
+</head>
+
+<body class="clearfix">
+
+<header role="banner">
+<h1><img src="img/conflist.png" alt="Conflist" title="Conflist" /></h1>
+</header>
+
+<div class="content clearfix">
+<p>It's a simple idea. Instead of second guessing whether you have everything or not for your next conference visit, why not tick off the items you've done.  Pop your email address in the bottom and hit send, and you'll receive an email reminder telling you what you still need to sort out.</p>
+
+	<ul id="conflist">
+	<form method="post" id="confform" action="email.php">
+		<li>
+		<label class="tickets" for="tickets">Booked your ticket?</label>
+		<input class="checkbox" type="checkbox" name="tickets" id="tickets" value="POW! You've booked your tickets!" />
+		</li>
+		
+		<li>
+		<label class="print" for="print">Done! Do you need to <em>print</em> your ticket?</label>
+		<input class="checkbox" type="checkbox" name="print" id="print" value="BLAM! Your tickets are printed!" />
+		</li>
+		
+		<li>
+		<label class="hotel" for="hotel">Great! Do you need a hotel?</label>
+		<input class="checkbox" type="checkbox" name="hotel" id="hotel" value="KAPOW! Your hotel is sorted!" />
+		</li>
+		
+		<li>
+		<label class="flights" for="flights">Sorted! Are you flying?</label>
+		<input class="checkbox" type="checkbox" name="flights" id="flights" value="ZAP! Your flights are done!"/>
+		</li>
+		
+		<li>
+		<label class="passport" for="passport">Sweet! Do you know where your passport is?</label>
+		<input class="checkbox" type="checkbox" name="passport" id="passport" value="Check! You know where your passport is!"/>
+		</li>
+		
+		<li>
+		<label class="passportexpired" for="passportexpired">You're on a roll! Is your passport in date?</label>
+		<input class="checkbox" type="checkbox" name="passportexpired" id="passportexpired" value="Woo! Your passport is in date!" />
+		</li>
+		
+		<li>
+		<label class="money" for="money">Have you got some beer money?</label>
+		<input class="checkbox" type="checkbox" name="money" id="money" value="SPLOOSH! You've got beer money sorted" />
+		</li>
+		
+		<li>
+		<label class="cards" for="cards">How about those all important business cards?</label>
+		<input class="checkbox" type="checkbox" name="cards" id="cards" value="WHAAAMM! Business cards are designed, printed and delivered!" />
+		</li>
+		
+		<li>
+		<label class="toothbrush" for="toothbrush">Winning! Packed your toothbrush?</label>
+		<input class="checkbox" type="checkbox" name="toothbrush" id="toothbrush" value="ZOK! You're toothbrush is in the bag" />
+		</li>
+		
+		<li>
+		<label class="clothes" for="clothes">You're all set. Now pack some <del>clothes!</del> checked shirts!</label>
+		<input class="checkbox" type="checkbox" name="clothes" id="clothes" value="SORTED! Suitcase is down from the loft & your clothes are packed!"/>
+		</li>
+		
+		<li>
+		<div id="emailitback">
+		<label>Still need to do stuff? E-mail this list to yourself as a reminder!</label>
+		<input type="email" name="Email" id="Email" />
+		<input type="submit" name="submit" class="button" id="submit" value="Remind Me!" class="submit-button" />
+		
+		</div>
+		</li>
+	</form>
+	</ul>
+	<section id="privacy">
+	<p>I hope this has helped you prepare for your fun conference visit. If you think I've left anything out, drop me a tweet <a href="http://twitter.com/mrqwest" title="follow me on twitter - @mrqwest">@mrqwest</a> and I'll add it to the list!</p>
+	
+	<p>Oh and in case you're worried about privacy, we don't keep any details or email address' submitted through this form. </p>
+	</section>
+</div>
+<footer role="contentinfo" class="clearfix">
+	<p>Another little weekend project by <a href="http://twitter.com/mrqwest" title="Why not follow me on twitter?">@mrqwest</a> (Why not follow me on twitter?) &copy; 2011 <a href="http://mrqwest.co.uk" title="MrQwest - A Croydon Web Designer">MrQwest.co.uk</a></p>
+</footer>
+
+<!-- Scripts -->
+<script src="js/libs/jquery-1.6.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+<script src="js/mylibs/helper.js"></script>
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="js/libs/imgsizer.js"></script>
+<![endif]-->
+
+<script>
+// iOS scale bug fix
+MBP.scaleFix();
+
+// Respond.js
+yepnope({
+	test : Modernizr.mq('(min-width)'),
+	nope : ['js/libs/respond.min.js']
+});
+</script>
+
+<!-- http://mths.be/aab -->
+<script>
+var _gaq=[['_setAccount','UA-26818405-1'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+
+</body>
+</html>

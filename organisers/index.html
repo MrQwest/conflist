@@ -1,0 +1,236 @@
+<!doctype html>
+
+<!-- 
+320 and Up boilerplate extension
+Andy Clarke http://about.me/malarkey
+Keith Clark http://twitter.com/keithclarkcouk
+Version: 2
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT
+-->
+
+<!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
+<!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+
+<title>The Organisers Edition | Conflist</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" media="print" href="../css/print.css">
+<!-- For Retina displays -->
+<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5)" href="css/2x.css">
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="js/libs/selectivizr-min.js"></script>
+<![endif]-->
+
+<!-- JavaScript -->
+<script src="../js/libs/modernizr-2.0.6.min.js"></script>
+
+<!-- For iPhone 4 -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon.png">
+<!-- For iPad 1-->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/m/apple-touch-icon.png">
+<!-- For iPhone 3G, iPod Touch and Android -->
+<link rel="apple-touch-icon-precomposed" href="img/l/apple-touch-icon-precomposed.png">
+<!-- For Nokia -->
+<link rel="shortcut icon" href="img/l/apple-touch-icon.png">
+<!-- For everything else -->
+<link rel="shortcut icon" href="/favicon.ico">
+
+<!--iOS. Delete if not required -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-startup-image" href="img/splash.png">
+
+<!--Microsoft. Delete if not required -->
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--[if lt IE 7 ]><script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script><script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script><![endif]-->
+
+<!-- http://t.co/y1jPVnT -->
+<link rel="canonical" href="/">
+</head>
+
+<body class="clearfix">
+
+<header role="banner">
+<h1><img src="../img/conflist.png" alt="Conflist" title="Conflist" /></h1>
+<h2>Organiser Edition</h2>
+</header>
+
+<div class="content clearfix">
+
+<p>Following on from Conflist, this is the Organisers Edition which is set for those who plan to or are putting on an event or conference. There's an awful lot more to think about when you're planning it!.  Tick off the items you've done, pop your email address in the bottom and hit send, and you'll receive an email reminder telling you what you still need to sort out.</p>
+
+	<ul id="conflist">
+	<form method="post" id="confform" action="email.php">
+		<li>
+		<label class="speakers" for="speakers">Speakers Confirmed?</label>
+		<input class="checkbox" type="checkbox" name="speakers" id="speakers" value="POW! You've booked your speakers!" />
+		</li>
+		
+		<li>
+		<label class="venue" for="venue">Done! Booked your venue?</label>
+		<input class="checkbox" type="checkbox" name="venue" id="venue" value="BLAM! Your venue is booked!" />
+		</li>
+		
+		<li>
+		<label class="sponsors" for="sponsors">Great! have you confirmed and invoiced your sponsors?</label>
+		<input class="checkbox" type="checkbox" name="sponsors" id="sponsors" value="KAPOW! Your sponsors are sorted!" />
+		</li>
+		
+		<li>
+		<label class="website" for="website">Sorted! has your website launched?</label>
+		<input class="checkbox" type="checkbox" name="website" id="website" value="ZAP! Your website has launched!"/>
+		</li>
+		
+		<li>
+		<label class="tickets" for="tickets">Sweet! Have you sold all your tickets?</label>
+		<input class="checkbox" type="checkbox" name="tickets" id="tickets" value="Check! You've sold your tickets!"/>
+		</li>
+		
+		<li>
+		<label class="paypal" for="paypal">You're on a roll! Have you withdrawn your money from Paypal?</label>
+		<input class="checkbox" type="checkbox" name="paypal" id="paypal" value="Woo! You've got your money from Paypal!" />
+		</li>
+		
+		<li>
+		<label class="lanyard" for="lanyard">Have you ordered your Lanyards?</label>
+		<input class="checkbox" type="checkbox" name="lanyard" id="lanyard" value="SPLOOSH! You're lanyards are sorted!" />
+		</li>
+		
+		<li>
+		<label class="badges" for="badges">How about the name badges?</label>
+		<input class="checkbox" type="checkbox" name="badges" id="badges" value="WHAAAMM! Name badges printed!" />
+		</li>
+		
+		<li>
+		<label class="schedule" for="schedule">Winning! How's your schedule doing?</label>
+		<input class="checkbox" type="checkbox" name="schedule" id="schedule" value="ZOK! You're schedule is finalised!" />
+		</li>
+		
+		<li>
+		<label class="afterparty" for="afterparty">Is your after party planned?</label>
+		<input class="checkbox" type="checkbox" name="afterparty" id="afterparty" value="SORTED! Your attendees can get drunk and discuss how awesome your event was!"/>
+		</li>
+		
+		<li>
+		<label class="display" for="display">Have you got display adapters ready?</label>
+		<input class="checkbox" type="checkbox" name="display" id="display" value="WHAM! Your speakers can show their amazing slides!"/>
+		</li>
+		
+		<li>
+		<label class="remote" for="remote">Do you have a Remote for presentations?</label>
+		<input class="checkbox" type="checkbox" name="remote" id="remote" value="POW! Your speakers are no longer tied to their mac. This is the 21st Century after all!"/>
+		</li>
+		
+		<li>
+		<label class="resolution" for="resolution">Have you checked the projector screen resolution?</label>
+		<input class="checkbox" type="checkbox" name="resolution" id="resolution" value="ZOK! Your attendees won't be watching pixelated slides similar to the original Pong game!"/>
+		</li>
+		
+		<li>
+		<label class="briefed" for="briefed">Briefed your speakers on length of talks?</label>
+		<input class="checkbox" type="checkbox" name="briefed" id="briefed" value="SORTED! Your event will last more than 30 minutes!"/>
+		</li>
+		
+		<li>
+		<label class="hotel" for="hotel">Booked your hotels?</label>
+		<input class="checkbox" type="checkbox" name="hotel" id="hotel" value="Sweet! You & your speakers have somewhere to sleep!"/>
+		</li>
+		
+		<li>
+		<label class="dinner" for="dinner">Booked the table for the speakers dinner?</label>
+		<input class="checkbox" type="checkbox" name="dinner" id="dinner" value="Gadzooks! Your speakers can eat like kings the day before!"/>
+		</li>
+		
+		<li>
+		<label class="arrived" for="arrived">Have your speakers arrived?</label>
+		<input class="checkbox" type="checkbox" name="arrived" id="arrived" value="YAY! Your attendees can now watch your speakers rather than an empty stage!"/>
+		</li>
+		
+		<li>
+		<label class="volunteer" for="volunteer">Have you organised some help for the day?</label>
+		<input class="checkbox" type="checkbox" name="volunteer" id="volunteer" value="Sweet! You've got yourself some lucky volunteers!"/>
+		</li>
+		
+		<li>
+		<label class="opened" for="opened">Have you got your opening speech ready?</label>
+		<input class="checkbox" type="checkbox" name="opened" id="opened" value="POW! You're almost done!"/>
+		</li>
+		
+		<li>
+		<label class="drink" for="drink">Have you had at least one drink at the after party?</label>
+		<input class="checkbox" type="checkbox" name="drink" id="drink" value="hic! Only one drink? Get some more down your neck!"/>
+		</li>
+		
+		<li>
+		<label class="recording" for="recording">If you're recording, have you set up the equipment?</label>
+		<input class="checkbox" type="checkbox" name="recording" id="recording" value="Awesome! People who couldn't come can now re-live your event!"/>
+		</li>
+		
+		<li>
+		<div id="emailitback">
+		<label>Still need to do stuff? E-mail this list to yourself as a reminder!</label>
+		<input type="email" name="Email" id="Email" />
+		<input type="submit" name="submit" class="button" id="submit" value="Remind Me!" class="submit-button" />
+		
+		</div>
+		</li>
+	</form>
+	</ul>
+	<section id="privacy">
+	<p>I hope this has helped you prepare for your fun conference visit. If you think I've left anything out, drop me a tweet <a href="http://twitter.com/mrqwest" title="follow me on twitter - @mrqwest">@mrqwest</a> and I'll add it to the list!</p>
+	
+	<p>Oh and in case you're worried about privacy, we don't keep any details or email address' submitted through this form. </p>
+	</section>
+</div>
+<footer role="contentinfo" class="clearfix">
+	<p>Another little weekend project by <a href="http://twitter.com/mrqwest" title="Why not follow me on twitter?">@mrqwest</a> (Why not follow me on twitter?) &copy; 2011 <a href="http://mrqwest.co.uk" title="MrQwest - A Croydon Web Designer">MrQwest.co.uk</a></p>
+</footer>
+
+<!-- Scripts -->
+<script src="../js/libs/jquery-1.6.2.min.js"></script>
+<script src="../js/plugins.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/mylibs/helper.js"></script>
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="js/libs/imgsizer.js"></script>
+<![endif]-->
+
+<script>
+// iOS scale bug fix
+MBP.scaleFix();
+
+// Respond.js
+yepnope({
+	test : Modernizr.mq('(min-width)'),
+	nope : ['js/libs/respond.min.js']
+});
+</script>
+
+<!-- http://mths.be/aab -->
+<script>
+var _gaq=[['_setAccount','UA-26818405-1'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+
+</body>
+</html>
